@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Project 2</title>
+    <link rel="stylesheet" href="project2.css" >
+</head>
+
+<body >
+    <h1>The Basics of the Web and HTML</h1>
+    <div class="main">
+        <div class="description">
+            The World Wide Web is a collection of HTML documents.  HTML stands for <em>Hypertext Markup Language.</em>
+        </div>
+        <div class="subtitle">
+            Concepts of the Web:
+        </div>
+        <div class="description">
+            <ul>
+                <li>Browser - a program that runs on your computer to display files found on the web</li>
+                <li>Internet - the world's largest computer network</li>
+                <li>HTTP - the main protocol of the web</li>
+                <li>Servers - computers that host the files that make up the web</li>
+            </ul>
+        </div>
+        <div class="subtitle">
+            HTML is made up of:
+        </div>
+        <div class="description">
+            <ul>
+                <li>Text content - <em>what you see</em></li>
+                <li>Markup - <em>what it looks like</em></li>
+                <li>References to other documents - i.e. images, videos</li>
+                <li>Links to other pages </li>
+            </ul>
+        </div>
+
+        <div class="subtitle">
+            Tags and Elements
+        </div>
+        <div class="description">
+            <p>
+                HTML documents are made of HTML <b>elements</b>.  An HTML element refers to everything within a set of opening and closing <b>tags</b>.
+                Some elements also have <b>attributes</b>.
+            </p>
+            <p>
+                HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them.
+            </p>
+        </div>
+        <div>
+            <table class="elements">
+                <tr>
+                    <th>Inline Elements</th>
+                    <th>Block Elements</th>
+                </tr>
+                <tr>
+                    <td>a</td>
+                    <td>div</td>
+                </tr>
+                <tr>
+                    <td>br</td>
+                    <td>p</td>
+                </tr>
+                <tr>
+                    <td>span</td>
+                    <td>form</td>
+                </tr>
+                <tr>
+                    <td>img</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>strong</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <h1>Web Pages, Documents, and Structure</h1>
+    <div class="main">
+        <ul>
+            <li>
+                HTML (Hyper Text Markup Language) files controls the structure of a web page.
+            </li>
+            <li>
+                CSS (Cascading Style Sheets ) files controls the style of a page (how it looks)
+            </li>
+            <li>
+                Javascript is the interactive component.
+            </li>
+        </ul>
+        <div class="description">
+            HTML is the language of the web.  It has specific syntax and rules.  The basic word in the language of HTML is a tag.
+            The browser turns HTML tags into elements that form a tree (elements can have other elements within).
+            It knows how to do that because of the DOM (Document Object Model) which is the standard convention
+            for representing and interacting with HTML elements.
+            Every element in a web page is a box.
+            <p>
+                CSS  use specific syntax and rules that change how elements look in the page, i.e. font-size, color, border, etc.
+            </p>
+        </div>
+        <div class="subtitle">
+            There are three ways to include CSS Styling in a web page.
+        </div>
+        <ol>
+            <li>
+                Write CSS in the "head" section. This method is good for very small projects.
+            </li>
+            <li>
+                Link the HTML page to a separate CSS file. This adds another step but is more organized when working on larger projects.
+            </li>
+            <li>
+                Write the style "inline" with the HTML page. This should be avoided because it leads to lots of repeated codes.
+                The same styles are copied and pasted into many elements.
+                When changes are required, rewriting the codes can  lead to errors.  <b>Repetition should be avoided.</b>
+            </li>
+        </ol>
+        <div class="subtitle">
+            Creating & Designing a Page:
+        </div>
+        <div class="description">
+            Write the code, compare against design mock-up, refine code until it looks like the design. Get the structure of the page right.
+            Visualize the boxes. work on the tags, size and position of the boxes.
+            Use developer tools to refine the page without actually changing the codes until it meets the specification.
+        </div>
+        <div class="subtitle">
+            Code, Test, Refine
+        </div>
+        <ol>
+            <li>
+                Look for natural boxes
+            </li>
+            <li>
+                Look for repeated styles and semantic elements
+            </li>
+            <li>
+                Write the HTML page
+            </li>
+            <li>
+                Apply styles (from biggest to smallest)
+            </li>
+            <li>
+                Fix things
+            </li>
+        </ol>
+    </div>
+
+    <h1>Introduction to Serious Programming</h1>
+    <div class="main">
+        <ul>
+            <li>
+                Programming is the core of computer science.
+            </li>
+            <li>
+             Most machines do one thing or are limited to what it’s designed to do.
+            </li>
+            <li>
+                Computers without a program can’t do anything.
+                The power of computers is that it can do anything that it’s programmed to do. 
+                It uses a precise sequence of steps that can be executed super fast.
+            </li>
+            <li>
+                Programs tell the computer what steps to take.
+            </li>
+            <li>
+                Python is one example of a programming language.  It has specific grammar.
+                Codes must use correct grammar so that the interpreter can process it.
+            </li>
+            <li>
+                Python expression is a statement that does something ( i.e. calculate sum of 2 numbers, assign a value).
+            </li>
+        </ul>
+    </div>
+    <h1>Variables and Strings</h1>
+    <div class="main">
+        <ul>
+            <li>
+                Variables are names used to hold values.
+            </li>
+            <li>
+                Values are assigned to variables by using an assignment statement.
+            </li>
+            <li>
+                The equal “=” symbol is used in the assignment statement to assign
+                value to a variable, i.e. my_variable = 10 means my_variable is given the value of 10. 
+                This is different from the equation 2 + 3 = 5 which means 2 + 3 is the same as 5.
+            </li>
+            <li>
+                Variables make the program easier to understand by using names that
+                describes the value. It stores value of important data and gives us the ability to
+                reuse and/or modify its content.
+            </li>
+            <li>
+                Using variables allows us to assign different values in an expression to compute different things.
+            </li>
+            <li>
+                Strings are sequence of characters surrounded by quotes.
+                The + symbol in strings means concatenation. As an example: “2” + “2” will give us “22”
+                since the values are surrounded by quotes and 2 + 2 will give us 4 since the values are
+                treated as numbers (no quotes).
+            </li>
+        </ul>
+    </div>
+    <h1>Functions</h1>
+    <div class="main">
+        <ul>
+            <li>
+                A function is something that accomplishes a specific task. 
+                Functions usually "take in" data (input), process it, and "return" a result (output). 
+                Once a function is written, it can be used over and over again.
+            </li>
+            <li>
+                Functions are created by using the keyword “def” plus the function name
+                followed by the parameters in parentheses.
+                The parameters will be replaced by values when the function is used. <br>
+                <div class='example'>def add_numbers(a, b): <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = a + b<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return result
+                </div>
+            </li>
+            <li>
+                The body of the function contains the actual codes or instructions that specify what to do with the input parameters.
+            </li>
+            <li>
+                A “return” statement is used to produce an output.
+            </li>
+            <li>
+                Functions are used by writing the name of the function followed by the value(s) in parentheses, i.e. print add_numbers(5,3)
+            </li>
+            <li>
+                Functions can be "called" from the inside of other functions.
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
